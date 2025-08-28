@@ -1,0 +1,20 @@
+00:00:07.615696 VirtualBox GUI VM Selector Window 7.0.14 r161095 win.amd64 (Jan 15 2024 14:59:30) release log
+00:00:07.615701 Log opened 2025-02-07T09:44:07.304377100Z
+00:00:07.615702 Build Type: release
+00:00:07.615715 OS Product: Windows 10
+00:00:07.615717 OS Release: 10.0.19045
+00:00:07.615719 OS Service Pack: 
+00:00:07.638803 DMI Product Name: HP EliteBook 840 G3
+00:00:07.643446 DMI Product Version:  
+00:00:07.643467 Firmware type: UEFI
+00:00:07.643918 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:07.643951 Host RAM: 8072MB (7.8GB) total, 2070MB (2.0GB) available
+00:00:07.643956 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:07.643956 Process ID: 10880
+00:00:07.643957 Package type: WINDOWS_64BITS_GENERIC
+00:00:07.644082 Qt version: 5.15.2
+00:00:07.646435 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:07.997374 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:26.963101 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:05.827751 GUI: UICommon: Handling aboutToQuit request..
+00:01:07.432610 GUI: UICommon: aboutToQuit request handled!

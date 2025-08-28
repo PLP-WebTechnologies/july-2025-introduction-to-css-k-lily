@@ -1,0 +1,66 @@
+00:00:00.075182 main     VirtualBox COM Server 7.0.14 r161095 win.amd64 (Jan 15 2024 14:59:30) release log
+00:00:00.075186 main     Log opened 2025-02-07T09:44:04.337680300Z
+00:00:00.075187 main     Build Type: release
+00:00:00.075201 main     OS Product: Windows 10
+00:00:00.075203 main     OS Release: 10.0.19045
+00:00:00.075204 main     OS Service Pack: 
+00:00:00.606721 main     DMI Product Name: HP EliteBook 840 G3
+00:00:00.624476 main     DMI Product Version:  
+00:00:00.639497 main     Firmware type: UEFI
+00:00:00.640074 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.700842 main     Host RAM: 8072MB (7.8GB) total, 2083MB (2.0GB) available
+00:00:00.700872 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.700876 main     Process ID: 11620
+00:00:00.700878 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:01.042798          VirtualBox: object creation starts
+00:00:01.075032          Home directory: 'C:\Users\klily\.VirtualBox'
+00:00:01.075748          Installed Drivers:
+00:00:01.091677            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.14.11095)
+00:00:01.105735            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.14.11095)
+00:00:01.116383            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.0.14.11095)
+00:00:01.127814            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.14.11095)
+00:00:01.284087          Loading settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.296724          usbLibGetDevices: Starting USB device enumeration
+00:00:01.322470          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2138960&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:01.338925          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&2138960&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 9
+00:00:01.342394          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:01.360008          USB: Unknown USB device detected (idVendor: 0x04ca, idProduct: 0x7053)
+00:00:01.362531          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2b)
+00:00:02.014550          HostDnsMonitor: initializing
+00:00:02.032493          HostDnsMonitor: updating information
+00:00:02.033841          HostDnsMonitor: old information
+00:00:02.033842            no server entries
+00:00:02.033843            no domain set
+00:00:02.033844            no search string entries
+00:00:02.033844          HostDnsMonitor: new information
+00:00:02.033845            server 1: 192.168.100.1
+00:00:02.033846            no domain set
+00:00:02.033846            no search string entries
+00:00:02.211643          VD: VDInit finished with VINF_SUCCESS
+00:00:02.436905          Loading settings file "C:\Users\klily\VirtualBox VMs\ubuntu\ubuntu.vbox" with version "1.19-windows"
+00:00:02.520507          VirtualBox: object created
+00:00:03.177898          Saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:03.207260          Finished saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml"
+00:00:03.207583          Saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:03.232274          Finished saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml"
+00:00:03.232551          Saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:03.260339          Finished saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml"
+00:00:24.359980          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:27.473539          Import settings with version "1.19-windows"
+00:00:27.473730          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'ubuntu 1'}, preserve=false aResultDetail=0
+00:00:27.501333          ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not find file for the medium 'C:\Users\klily\VirtualBox VMs\ubuntu 1\ubuntu-disk002.vmdk' (VERR_PATH_NOT_FOUND)}, preserve=false aResultDetail=-103
+00:00:47.712321          Saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:48.075139          Finished saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml"
+00:07:52.253278 createImport Saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:07:52.336524 createImport Finished saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml"
+00:07:52.970010 ApplImp  Saving settings file "C:\Users\klily\VirtualBox VMs\ubuntu 1\ubuntu 1.vbox" with version "1.19-windows"
+00:07:53.050117 ApplImp  Finished saving settings file "C:\Users\klily\VirtualBox VMs\ubuntu 1\ubuntu 1.vbox"
+00:07:53.051458 ApplImp  Saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:07:53.126638 ApplImp  Finished saving settings file "C:\Users\klily\.VirtualBox\VirtualBox.xml"
+00:07:57.348876 main     VirtualBox: object deletion starts
+00:07:57.374087 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\klily\VirtualBox VMs\ubuntu\ubuntu-disk002.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:57.408033 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\klily\VirtualBox VMs\ubuntu 1\ubuntu-disk002.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:57.454213 main     HostDnsMonitor: shutting down ...
+00:07:57.454392 main     HostDnsMonitor: shut down
+00:07:57.461993 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:07:57.524040 main     VirtualBox: object deleted
